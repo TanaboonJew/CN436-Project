@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35ED6E42BC2FD6700E18856 /* FitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6E32BC2FD6700E18856 /* FitHubApp.swift */; };
+		C35ED6E62BC2FD6700E18856 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6E52BC2FD6700E18856 /* ContentView.swift */; };
+		C35ED6E82BC2FD6800E18856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35ED6E72BC2FD6800E18856 /* Assets.xcassets */; };
+		C35ED6EB2BC2FD6800E18856 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35ED6EA2BC2FD6800E18856 /* Preview Assets.xcassets */; };
+		C35ED6F52BC2FD6900E18856 /* FitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6F42BC2FD6900E18856 /* FitHubTests.swift */; };
+		C35ED6FF2BC2FD6900E18856 /* FitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6FE2BC2FD6900E18856 /* FitHubUITests.swift */; };
+		C35ED7012BC2FD6900E18856 /* FitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED7002BC2FD6900E18856 /* FitHubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35ED6F12BC2FD6900E18856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35ED6D82BC2FD6700E18856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35ED6DF2BC2FD6700E18856;
+			remoteInfo = FitHub;
+		};
+		C35ED6FB2BC2FD6900E18856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35ED6D82BC2FD6700E18856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35ED6DF2BC2FD6700E18856;
+			remoteInfo = FitHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C35ED6E02BC2FD6700E18856 /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35ED6E32BC2FD6700E18856 /* FitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubApp.swift; sourceTree = "<group>"; };
+		C35ED6E52BC2FD6700E18856 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C35ED6E72BC2FD6800E18856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35ED6EA2BC2FD6800E18856 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C35ED6F02BC2FD6900E18856 /* FitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35ED6F42BC2FD6900E18856 /* FitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubTests.swift; sourceTree = "<group>"; };
+		C35ED6FA2BC2FD6900E18856 /* FitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35ED6FE2BC2FD6900E18856 /* FitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubUITests.swift; sourceTree = "<group>"; };
+		C35ED7002BC2FD6900E18856 /* FitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35ED6DD2BC2FD6700E18856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6ED2BC2FD6900E18856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6F72BC2FD6900E18856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35ED6D72BC2FD6700E18856 = {
+			isa = PBXGroup;
+			children = (
+				C35ED6E22BC2FD6700E18856 /* FitHub */,
+				C35ED6F32BC2FD6900E18856 /* FitHubTests */,
+				C35ED6FD2BC2FD6900E18856 /* FitHubUITests */,
+				C35ED6E12BC2FD6700E18856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35ED6E12BC2FD6700E18856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED6E02BC2FD6700E18856 /* FitHub.app */,
+				C35ED6F02BC2FD6900E18856 /* FitHubTests.xctest */,
+				C35ED6FA2BC2FD6900E18856 /* FitHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35ED6E22BC2FD6700E18856 /* FitHub */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED6E32BC2FD6700E18856 /* FitHubApp.swift */,
+				C35ED6E52BC2FD6700E18856 /* ContentView.swift */,
+				C35ED6E72BC2FD6800E18856 /* Assets.xcassets */,
+				C35ED6E92BC2FD6800E18856 /* Preview Content */,
+			);
+			path = FitHub;
+			sourceTree = "<group>";
+		};
+		C35ED6E92BC2FD6800E18856 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED6EA2BC2FD6800E18856 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C35ED6F32BC2FD6900E18856 /* FitHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED6F42BC2FD6900E18856 /* FitHubTests.swift */,
+			);
+			path = FitHubTests;
+			sourceTree = "<group>";
+		};
+		C35ED6FD2BC2FD6900E18856 /* FitHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED6FE2BC2FD6900E18856 /* FitHubUITests.swift */,
+				C35ED7002BC2FD6900E18856 /* FitHubUITestsLaunchTests.swift */,
+			);
+			path = FitHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35ED6DF2BC2FD6700E18856 /* FitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35ED7042BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHub" */;
+			buildPhases = (
+				C35ED6DC2BC2FD6700E18856 /* Sources */,
+				C35ED6DD2BC2FD6700E18856 /* Frameworks */,
+				C35ED6DE2BC2FD6700E18856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitHub;
+			productName = FitHub;
+			productReference = C35ED6E02BC2FD6700E18856 /* FitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35ED6EF2BC2FD6900E18856 /* FitHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35ED7072BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHubTests" */;
+			buildPhases = (
+				C35ED6EC2BC2FD6900E18856 /* Sources */,
+				C35ED6ED2BC2FD6900E18856 /* Frameworks */,
+				C35ED6EE2BC2FD6900E18856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35ED6F22BC2FD6900E18856 /* PBXTargetDependency */,
+			);
+			name = FitHubTests;
+			productName = FitHubTests;
+			productReference = C35ED6F02BC2FD6900E18856 /* FitHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35ED6F92BC2FD6900E18856 /* FitHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35ED70A2BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHubUITests" */;
+			buildPhases = (
+				C35ED6F62BC2FD6900E18856 /* Sources */,
+				C35ED6F72BC2FD6900E18856 /* Frameworks */,
+				C35ED6F82BC2FD6900E18856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35ED6FC2BC2FD6900E18856 /* PBXTargetDependency */,
+			);
+			name = FitHubUITests;
+			productName = FitHubUITests;
+			productReference = C35ED6FA2BC2FD6900E18856 /* FitHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35ED6D82BC2FD6700E18856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C35ED6DF2BC2FD6700E18856 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C35ED6EF2BC2FD6900E18856 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C35ED6DF2BC2FD6700E18856;
+					};
+					C35ED6F92BC2FD6900E18856 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C35ED6DF2BC2FD6700E18856;
+					};
+				};
+			};
+			buildConfigurationList = C35ED6DB2BC2FD6700E18856 /* Build configuration list for PBXProject "FitHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35ED6D72BC2FD6700E18856;
+			productRefGroup = C35ED6E12BC2FD6700E18856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35ED6DF2BC2FD6700E18856 /* FitHub */,
+				C35ED6EF2BC2FD6900E18856 /* FitHubTests */,
+				C35ED6F92BC2FD6900E18856 /* FitHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35ED6DE2BC2FD6700E18856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35ED6EB2BC2FD6800E18856 /* Preview Assets.xcassets in Resources */,
+				C35ED6E82BC2FD6800E18856 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6EE2BC2FD6900E18856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6F82BC2FD6900E18856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35ED6DC2BC2FD6700E18856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35ED6E62BC2FD6700E18856 /* ContentView.swift in Sources */,
+				C35ED6E42BC2FD6700E18856 /* FitHubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6EC2BC2FD6900E18856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35ED6F52BC2FD6900E18856 /* FitHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35ED6F62BC2FD6900E18856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35ED7012BC2FD6900E18856 /* FitHubUITestsLaunchTests.swift in Sources */,
+				C35ED6FF2BC2FD6900E18856 /* FitHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35ED6F22BC2FD6900E18856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35ED6DF2BC2FD6700E18856 /* FitHub */;
+			targetProxy = C35ED6F12BC2FD6900E18856 /* PBXContainerItemProxy */;
+		};
+		C35ED6FC2BC2FD6900E18856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35ED6DF2BC2FD6700E18856 /* FitHub */;
+			targetProxy = C35ED6FB2BC2FD6900E18856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C35ED7022BC2FD6900E18856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C35ED7032BC2FD6900E18856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35ED7052BC2FD6900E18856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C35ED7062BC2FD6900E18856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C35ED7082BC2FD6900E18856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitHub";
+			};
+			name = Debug;
+		};
+		C35ED7092BC2FD6900E18856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitHub";
+			};
+			name = Release;
+		};
+		C35ED70B2BC2FD6900E18856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitHub;
+			};
+			name = Debug;
+		};
+		C35ED70C2BC2FD6900E18856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chalisa.FitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35ED6DB2BC2FD6700E18856 /* Build configuration list for PBXProject "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED7022BC2FD6900E18856 /* Debug */,
+				C35ED7032BC2FD6900E18856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35ED7042BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED7052BC2FD6900E18856 /* Debug */,
+				C35ED7062BC2FD6900E18856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35ED7072BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED7082BC2FD6900E18856 /* Debug */,
+				C35ED7092BC2FD6900E18856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35ED70A2BC2FD6900E18856 /* Build configuration list for PBXNativeTarget "FitHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED70B2BC2FD6900E18856 /* Debug */,
+				C35ED70C2BC2FD6900E18856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35ED6D82BC2FD6700E18856 /* Project object */;
+}
