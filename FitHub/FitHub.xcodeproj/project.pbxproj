@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042F4D092BC3E62C002AC546 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F4D082BC3E62B002AC546 /* SwiftUIView.swift */; };
 		C35ED6E42BC2FD6700E18856 /* FitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6E32BC2FD6700E18856 /* FitHubApp.swift */; };
 		C35ED6E62BC2FD6700E18856 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED6E52BC2FD6700E18856 /* ContentView.swift */; };
 		C35ED6E82BC2FD6800E18856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35ED6E72BC2FD6800E18856 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042F4D082BC3E62B002AC546 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		C35ED6E02BC2FD6700E18856 /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35ED6E32BC2FD6700E18856 /* FitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubApp.swift; sourceTree = "<group>"; };
 		C35ED6E52BC2FD6700E18856 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C35ED6E52BC2FD6700E18856 /* ContentView.swift */,
 				C35ED6E72BC2FD6800E18856 /* Assets.xcassets */,
 				C35ED6E92BC2FD6800E18856 /* Preview Content */,
+				042F4D082BC3E62B002AC546 /* SwiftUIView.swift */,
 			);
 			path = FitHub;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				C35ED6E62BC2FD6700E18856 /* ContentView.swift in Sources */,
 				C35ED6E42BC2FD6700E18856 /* FitHubApp.swift in Sources */,
+				042F4D092BC3E62C002AC546 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
