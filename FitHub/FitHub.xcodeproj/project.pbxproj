@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3198F9CC2BD21B8500FD8438 /* FitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */; };
+		3198F9CE2BD21B8500FD8438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9CD2BD21B8500FD8438 /* ContentView.swift */; };
+		3198F9D02BD21B8600FD8438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9CF2BD21B8600FD8438 /* Assets.xcassets */; };
+		3198F9D32BD21B8600FD8438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9D22BD21B8600FD8438 /* Preview Assets.xcassets */; };
+		3198F9DE2BD21D1600FD8438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */; };
+		3198F9E12BD21D8A00FD8438 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3198F9E02BD21D8A00FD8438 /* FirebaseAuth */; };
+		3198F9E32BD21D8A00FD8438 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3198F9E22BD21D8A00FD8438 /* FirebaseDatabase */; };
+		3198F9E52BD21D8A00FD8438 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3198F9E42BD21D8A00FD8438 /* FirebaseFirestore */; };
+		3198F9E72BD21D8A00FD8438 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3198F9E62BD21D8A00FD8438 /* FirebaseFirestoreSwift */; };
+		3198F9E92BD21DFD00FD8438 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9E82BD21DFD00FD8438 /* MainPageView.swift */; };
+		3198F9EB2BD21E0F00FD8438 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9EA2BD21E0F00FD8438 /* SignInView.swift */; };
+		3198F9ED2BD21E3400FD8438 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9EC2BD21E3400FD8438 /* SignUpView.swift */; };
+		3198F9EF2BD21E7000FD8438 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9EE2BD21E7000FD8438 /* HomepageView.swift */; };
+		3198F9F12BD21E7900FD8438 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9F02BD21E7900FD8438 /* ActivityView.swift */; };
+		3198F9F32BD21E8400FD8438 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9F22BD21E8400FD8438 /* ChallengeView.swift */; };
+		3198F9F52BD21E8F00FD8438 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9F42BD21E8F00FD8438 /* ProfileView.swift */; };
+		3198F9F72BD21E9700FD8438 /* RunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9F62BD21E9700FD8438 /* RunView.swift */; };
+		3198F9F92BD21EA000FD8438 /* WalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9F82BD21EA000FD8438 /* WalkView.swift */; };
+		3198F9FB2BD21EAA00FD8438 /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9FA2BD21EAA00FD8438 /* CycleView.swift */; };
+		3198F9FD2BD21EB300FD8438 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9FC2BD21EB300FD8438 /* WorkoutView.swift */; };
+		3198F9FF2BD21EBC00FD8438 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9FE2BD21EBC00FD8438 /* SettingView.swift */; };
+		3198FA012BD21EC600FD8438 /* AccountPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */; };
+		3198FA032BD21ECE00FD8438 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198FA022BD21ECE00FD8438 /* NotificationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3198F9C82BD21B8500FD8438 /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubApp.swift; sourceTree = "<group>"; };
+		3198F9CD2BD21B8500FD8438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3198F9CF2BD21B8600FD8438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3198F9D22BD21B8600FD8438 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3198F9E82BD21DFD00FD8438 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		3198F9EA2BD21E0F00FD8438 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3198F9EC2BD21E3400FD8438 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3198F9EE2BD21E7000FD8438 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		3198F9F02BD21E7900FD8438 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		3198F9F22BD21E8400FD8438 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		3198F9F42BD21E8F00FD8438 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3198F9F62BD21E9700FD8438 /* RunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunView.swift; sourceTree = "<group>"; };
+		3198F9F82BD21EA000FD8438 /* WalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkView.swift; sourceTree = "<group>"; };
+		3198F9FA2BD21EAA00FD8438 /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		3198F9FC2BD21EB300FD8438 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		3198F9FE2BD21EBC00FD8438 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPreferenceView.swift; sourceTree = "<group>"; };
+		3198FA022BD21ECE00FD8438 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3198F9C52BD21B8500FD8438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198F9E32BD21D8A00FD8438 /* FirebaseDatabase in Frameworks */,
+				3198F9E12BD21D8A00FD8438 /* FirebaseAuth in Frameworks */,
+				3198F9E52BD21D8A00FD8438 /* FirebaseFirestore in Frameworks */,
+				3198F9E72BD21D8A00FD8438 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3198F9BF2BD21B8500FD8438 = {
+			isa = PBXGroup;
+			children = (
+				3198F9CA2BD21B8500FD8438 /* FitHub */,
+				3198F9C92BD21B8500FD8438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3198F9C92BD21B8500FD8438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9C82BD21B8500FD8438 /* FitHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3198F9CA2BD21B8500FD8438 /* FitHub */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9DC2BD21C3800FD8438 /* ViewModels */,
+				3198F9DB2BD21C2300FD8438 /* Others */,
+				3198F9DA2BD21C1600FD8438 /* Models */,
+				3198F9D92BD21C0C00FD8438 /* Views */,
+				3198F9CF2BD21B8600FD8438 /* Assets.xcassets */,
+				3198F9D12BD21B8600FD8438 /* Preview Content */,
+			);
+			path = FitHub;
+			sourceTree = "<group>";
+		};
+		3198F9D12BD21B8600FD8438 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9D22BD21B8600FD8438 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3198F9D92BD21C0C00FD8438 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9CD2BD21B8500FD8438 /* ContentView.swift */,
+				3198F9E82BD21DFD00FD8438 /* MainPageView.swift */,
+				3198F9EA2BD21E0F00FD8438 /* SignInView.swift */,
+				3198F9EC2BD21E3400FD8438 /* SignUpView.swift */,
+				3198F9EE2BD21E7000FD8438 /* HomepageView.swift */,
+				3198F9F02BD21E7900FD8438 /* ActivityView.swift */,
+				3198F9F22BD21E8400FD8438 /* ChallengeView.swift */,
+				3198F9F42BD21E8F00FD8438 /* ProfileView.swift */,
+				3198F9F62BD21E9700FD8438 /* RunView.swift */,
+				3198F9F82BD21EA000FD8438 /* WalkView.swift */,
+				3198F9FA2BD21EAA00FD8438 /* CycleView.swift */,
+				3198F9FC2BD21EB300FD8438 /* WorkoutView.swift */,
+				3198F9FE2BD21EBC00FD8438 /* SettingView.swift */,
+				3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */,
+				3198FA022BD21ECE00FD8438 /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3198F9DA2BD21C1600FD8438 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3198F9DB2BD21C2300FD8438 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */,
+				3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		3198F9DC2BD21C3800FD8438 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3198F9C72BD21B8500FD8438 /* FitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3198F9D62BD21B8600FD8438 /* Build configuration list for PBXNativeTarget "FitHub" */;
+			buildPhases = (
+				3198F9C42BD21B8500FD8438 /* Sources */,
+				3198F9C52BD21B8500FD8438 /* Frameworks */,
+				3198F9C62BD21B8500FD8438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitHub;
+			packageProductDependencies = (
+				3198F9E02BD21D8A00FD8438 /* FirebaseAuth */,
+				3198F9E22BD21D8A00FD8438 /* FirebaseDatabase */,
+				3198F9E42BD21D8A00FD8438 /* FirebaseFirestore */,
+				3198F9E62BD21D8A00FD8438 /* FirebaseFirestoreSwift */,
+			);
+			productName = FitHub;
+			productReference = 3198F9C82BD21B8500FD8438 /* FitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3198F9C02BD21B8500FD8438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3198F9C72BD21B8500FD8438 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3198F9C32BD21B8500FD8438 /* Build configuration list for PBXProject "FitHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3198F9BF2BD21B8500FD8438;
+			packageReferences = (
+				3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3198F9C92BD21B8500FD8438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3198F9C72BD21B8500FD8438 /* FitHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3198F9C62BD21B8500FD8438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198F9D32BD21B8600FD8438 /* Preview Assets.xcassets in Resources */,
+				3198F9D02BD21B8600FD8438 /* Assets.xcassets in Resources */,
+				3198F9DE2BD21D1600FD8438 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3198F9C42BD21B8500FD8438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198F9F92BD21EA000FD8438 /* WalkView.swift in Sources */,
+				3198F9EF2BD21E7000FD8438 /* HomepageView.swift in Sources */,
+				3198FA012BD21EC600FD8438 /* AccountPreferenceView.swift in Sources */,
+				3198FA032BD21ECE00FD8438 /* NotificationView.swift in Sources */,
+				3198F9FD2BD21EB300FD8438 /* WorkoutView.swift in Sources */,
+				3198F9FF2BD21EBC00FD8438 /* SettingView.swift in Sources */,
+				3198F9F52BD21E8F00FD8438 /* ProfileView.swift in Sources */,
+				3198F9CE2BD21B8500FD8438 /* ContentView.swift in Sources */,
+				3198F9ED2BD21E3400FD8438 /* SignUpView.swift in Sources */,
+				3198F9CC2BD21B8500FD8438 /* FitHubApp.swift in Sources */,
+				3198F9F32BD21E8400FD8438 /* ChallengeView.swift in Sources */,
+				3198F9F72BD21E9700FD8438 /* RunView.swift in Sources */,
+				3198F9F12BD21E7900FD8438 /* ActivityView.swift in Sources */,
+				3198F9FB2BD21EAA00FD8438 /* CycleView.swift in Sources */,
+				3198F9EB2BD21E0F00FD8438 /* SignInView.swift in Sources */,
+				3198F9E92BD21DFD00FD8438 /* MainPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3198F9D42BD21B8600FD8438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3198F9D52BD21B8600FD8438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3198F9D72BD21B8600FD8438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.tu.dome-jew.tanaboon.FitHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3198F9D82BD21B8600FD8438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.tu.dome-jew.tanaboon.FitHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3198F9C32BD21B8500FD8438 /* Build configuration list for PBXProject "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198F9D42BD21B8600FD8438 /* Debug */,
+				3198F9D52BD21B8600FD8438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3198F9D62BD21B8600FD8438 /* Build configuration list for PBXNativeTarget "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198F9D72BD21B8600FD8438 /* Debug */,
+				3198F9D82BD21B8600FD8438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3198F9E02BD21D8A00FD8438 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3198F9E22BD21D8A00FD8438 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3198F9E42BD21D8A00FD8438 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3198F9E62BD21D8A00FD8438 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3198F9DF2BD21D8A00FD8438 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3198F9C02BD21B8500FD8438 /* Project object */;
+}
