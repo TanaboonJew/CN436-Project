@@ -31,7 +31,7 @@ struct SignInView: View {
                 Alert(title: Text("Error"), message: Text(errorMessage), dismissButton: .default(Text("OK")))
             }
             // Navigate to next view upon successful sign-in
-            NavigationLink(destination: HomepageView(), isActive: $navigateToNextView) {
+            NavigationLink(destination: MainView(), isActive: $navigateToNextView) {
                 EmptyView()
             }
         }

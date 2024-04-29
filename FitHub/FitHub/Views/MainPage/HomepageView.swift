@@ -10,7 +10,7 @@ import SwiftUI
 struct HomepageView: View {
     @StateObject private var locationManager = LocationManager()  // Create a StateObject for locationManager
 
-    var body: some View {
+    var body: some View {        
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading) {
@@ -23,13 +23,13 @@ struct HomepageView: View {
                         .font(.title2)
                         .padding(.vertical, 10)
                     
-                    NavigationLink(destination: ActivityView().navigationBarHidden(true)) {
-                        FeatureTile(title: "Track Activity", iconName: "figure.walk")
-                    }
-                    
-                    NavigationLink(destination: ChallengeView().navigationBarHidden(true)) {
-                        FeatureTile(title: "Join a Challenge", iconName: "rosette")
-                    }
+//                    NavigationLink(destination: ActivityView().navigationBarHidden(true)) {
+//                        FeatureTile(title: "Track Activity", iconName: "figure.walk")
+//                    }
+//                    
+//                    NavigationLink(destination: ChallengeView().navigationBarHidden(true)) {
+//                        FeatureTile(title: "Join a Challenge", iconName: "rosette")
+//                    }
                     
                     NavigationLink(destination: ProfileView().navigationBarHidden(true)) {
                         FeatureTile(title: "View Profile", iconName: "person.crop.circle")

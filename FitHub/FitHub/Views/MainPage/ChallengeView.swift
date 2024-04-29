@@ -17,6 +17,8 @@ struct ChallengeView: View {
                 .font(.title)
                 .padding()
             // Additional UI elements for displaying challenges can be added here
+            
+            Spacer()
         }
         .navigationBarBackButtonHidden(true)
     }

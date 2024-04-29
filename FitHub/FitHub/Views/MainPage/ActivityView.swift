@@ -15,7 +15,7 @@ struct ActivityView: View {
 
     var body: some View {
         VStack {
-            customBackButton
+//            customBackButton
             MapView(locationManager: locationManager)  // Corrected usage here
                 .frame(height: 300)
             
@@ -42,20 +42,20 @@ struct ActivityView: View {
         tracking.toggle()
     }
     
-    var customBackButton: some View {
-        Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-        }) {
-            HStack {
-                Image(systemName: "arrow.left")
-                    .aspectRatio(contentMode: .fit)
-                    .foregroundColor(.blue)
-                Text("Back")
-                    .foregroundColor(.blue)
-            }
-        }
-        .padding()
-    }
+//    var customBackButton: some View {
+//        Button(action: {
+//            self.presentationMode.wrappedValue.dismiss()
+//        }) {
+//            HStack {
+//                Image(systemName: "arrow.left")
+//                    .aspectRatio(contentMode: .fit)
+//                    .foregroundColor(.blue)
+//                Text("Back")
+//                    .foregroundColor(.blue)
+//            }
+//        }
+//        .padding()
+//    }
 }
 
 struct ActivityView_Previews: PreviewProvider {
