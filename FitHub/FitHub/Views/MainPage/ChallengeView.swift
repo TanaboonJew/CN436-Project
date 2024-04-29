@@ -12,7 +12,7 @@ struct ChallengeView: View {
 
     var body: some View {
         VStack {
-            customBackButton
+//            customBackButton
             Text("Challenges")
                 .font(.title)
                 .padding()

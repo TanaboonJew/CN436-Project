@@ -42,20 +42,20 @@ struct ActivityView: View {
         tracking.toggle()
     }
     
-//    var customBackButton: some View {
-//        Button(action: {
-//            self.presentationMode.wrappedValue.dismiss()
-//        }) {
-//            HStack {
-//                Image(systemName: "arrow.left")
-//                    .aspectRatio(contentMode: .fit)
-//                    .foregroundColor(.blue)
-//                Text("Back")
-//                    .foregroundColor(.blue)
-//            }
-//        }
-//        .padding()
-//    }
+    var customBackButton: some View {
+        Button(action: {
+            self.presentationMode.wrappedValue.dismiss()
+        }) {
+            HStack {
+                Image(systemName: "arrow.left")
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(.blue)
+                Text("Back")
+                    .foregroundColor(.blue)
+            }
+        }
+        .padding()
+    }
 }
 
 struct ActivityView_Previews: PreviewProvider {

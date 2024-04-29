@@ -34,7 +34,7 @@ struct SignUpView: View {
             }
             
             // Navigate to next view upon successful sign-up
-            NavigationLink(destination: MainView(), isActive: $navigateToNextView) {
+            NavigationLink(destination: UserInformationView(), isActive: $navigateToNextView) {
                 EmptyView()
             }
         }

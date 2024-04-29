@@ -42,6 +42,7 @@ struct HomepageView: View {
                 }
                 .padding()
             }
+            .navigationBarBackButtonHidden(true)
         }
         .navigationBarBackButtonHidden(true)
     }

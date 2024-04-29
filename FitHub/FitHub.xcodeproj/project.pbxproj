@@ -38,6 +38,8 @@
 		C341176A2BDFC9F7008BE2A4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34117692BDFC9F7008BE2A4 /* User.swift */; };
 		C341176C2BDFCC45008BE2A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341176B2BDFCC45008BE2A4 /* Extensions.swift */; };
 		C341176F2BDFD6BB008BE2A4 /* customTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341176E2BDFD6BB008BE2A4 /* customTabItem.swift */; };
+		C34117712BDFF47E008BE2A4 /* UserInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34117702BDFF47E008BE2A4 /* UserInformationView.swift */; };
+		C34117742BDFF4C3008BE2A4 /* UserInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34117732BDFF4C3008BE2A4 /* UserInformationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		C34117692BDFC9F7008BE2A4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C341176B2BDFCC45008BE2A4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C341176E2BDFD6BB008BE2A4 /* customTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabItem.swift; sourceTree = "<group>"; };
+		C34117702BDFF47E008BE2A4 /* UserInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationView.swift; sourceTree = "<group>"; };
+		C34117732BDFF4C3008BE2A4 /* UserInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 				3198F9E82BD21DFD00FD8438 /* MainPageView.swift */,
 				3198F9EA2BD21E0F00FD8438 /* SignInView.swift */,
 				3198F9EC2BD21E3400FD8438 /* SignUpView.swift */,
+				C34117702BDFF47E008BE2A4 /* UserInformationView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -227,9 +232,18 @@
 		C34117652BDFC8F4008BE2A4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C34117722BDFF4A4008BE2A4 /* LoginModels */,
 				C34117672BDFC959008BE2A4 /* MainViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C34117722BDFF4A4008BE2A4 /* LoginModels */ = {
+			isa = PBXGroup;
+			children = (
+				C34117732BDFF4C3008BE2A4 /* UserInformationViewModel.swift */,
+			);
+			path = LoginModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,11 +334,13 @@
 				3198F9FD2BD21EB300FD8438 /* WorkoutView.swift in Sources */,
 				3198F9FF2BD21EBC00FD8438 /* SettingView.swift in Sources */,
 				3198F9F52BD21E8F00FD8438 /* ProfileView.swift in Sources */,
+				C34117742BDFF4C3008BE2A4 /* UserInformationViewModel.swift in Sources */,
 				C30CF7C32BDA6478008D8AC5 /* HistoryView.swift in Sources */,
 				C30CF7C52BDA7015008D8AC5 /* Activity.swift in Sources */,
 				3198F9ED2BD21E3400FD8438 /* SignUpView.swift in Sources */,
 				C341176A2BDFC9F7008BE2A4 /* User.swift in Sources */,
 				3198F9CC2BD21B8500FD8438 /* FitHubApp.swift in Sources */,
+				C34117712BDFF47E008BE2A4 /* UserInformationView.swift in Sources */,
 				C30CF7C92BDAB0DA008D8AC5 /* LocationManager.swift in Sources */,
 				3198F9F32BD21E8400FD8438 /* ChallengeView.swift in Sources */,
 				C34117642BDFC832008BE2A4 /* MainView.swift in Sources */,

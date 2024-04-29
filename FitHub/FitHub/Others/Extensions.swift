@@ -8,6 +8,20 @@
 import Foundation
 import UIKit
 
+extension Encodable {
+    func asDictionary() -> [String: Any]{
+        guard let data = try? JSONEncoder().encode(self) else {
+            return[:]
+        }
+        do {
+            let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
+            return json ?? [:]
+        } catch {
+            return[:]
+        }
+    }
+}
+
 extension UIColor {
     convenience init(hex: String, alpha: CGFloat = 1.0) {
         var hexValue = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
