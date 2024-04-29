@@ -10,6 +10,7 @@ import Firebase
 
 
 struct SignInView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State private var email = ""
     @State private var password = ""
     @State private var showErrorAlert = false
@@ -18,11 +19,11 @@ struct SignInView: View {
 
     var body: some View {
         VStack {
+            customBackButton
             TextField("Email", text: $email)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             SecureField("Password", text: $password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-
             Button("Sign In") {
                 signIn()
             }
@@ -35,6 +36,7 @@ struct SignInView: View {
             }
         }
         .padding()
+        .navigationBarBackButtonHidden(true)  // Hides the default back button
     }
 
     private func signIn() {
@@ -53,6 +55,21 @@ struct SignInView: View {
                 navigateToNextView = true
             }
         }
+    }
+    
+    var customBackButton: some View {
+        Button(action: {
+            self.presentationMode.wrappedValue.dismiss()
+        }) {
+            HStack {
+                Image(systemName: "arrow.left") // Custom icon for back button
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(.blue)
+                Text("Back")
+                    .foregroundColor(.blue)
+            }
+        }
+        .padding()
     }
 }
 

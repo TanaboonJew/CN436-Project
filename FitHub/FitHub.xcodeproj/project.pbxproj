@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3198F9CC2BD21B8500FD8438 /* FitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */; };
-		3198F9CE2BD21B8500FD8438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9CD2BD21B8500FD8438 /* ContentView.swift */; };
 		3198F9D02BD21B8600FD8438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9CF2BD21B8600FD8438 /* Assets.xcassets */; };
 		3198F9D32BD21B8600FD8438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9D22BD21B8600FD8438 /* Preview Assets.xcassets */; };
 		3198F9DE2BD21D1600FD8438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */; };
@@ -30,12 +29,15 @@
 		3198F9FF2BD21EBC00FD8438 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F9FE2BD21EBC00FD8438 /* SettingView.swift */; };
 		3198FA012BD21EC600FD8438 /* AccountPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */; };
 		3198FA032BD21ECE00FD8438 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198FA022BD21ECE00FD8438 /* NotificationView.swift */; };
+		C30CF7C12BDA6411008D8AC5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30CF7C02BDA6411008D8AC5 /* MapView.swift */; };
+		C30CF7C32BDA6478008D8AC5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30CF7C22BDA6478008D8AC5 /* HistoryView.swift */; };
+		C30CF7C52BDA7015008D8AC5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30CF7C42BDA7015008D8AC5 /* Activity.swift */; };
+		C30CF7C92BDAB0DA008D8AC5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30CF7C82BDAB0DA008D8AC5 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3198F9C82BD21B8500FD8438 /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubApp.swift; sourceTree = "<group>"; };
-		3198F9CD2BD21B8500FD8438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3198F9CF2BD21B8600FD8438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3198F9D22BD21B8600FD8438 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		3198F9FE2BD21EBC00FD8438 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPreferenceView.swift; sourceTree = "<group>"; };
 		3198FA022BD21ECE00FD8438 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C30CF7C02BDA6411008D8AC5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C30CF7C22BDA6478008D8AC5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C30CF7C42BDA7015008D8AC5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = FitHub/Views/Activity.swift; sourceTree = SOURCE_ROOT; };
+		C30CF7C82BDAB0DA008D8AC5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,21 +116,12 @@
 		3198F9D92BD21C0C00FD8438 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3198F9CD2BD21B8500FD8438 /* ContentView.swift */,
-				3198F9E82BD21DFD00FD8438 /* MainPageView.swift */,
-				3198F9EA2BD21E0F00FD8438 /* SignInView.swift */,
-				3198F9EC2BD21E3400FD8438 /* SignUpView.swift */,
 				3198F9EE2BD21E7000FD8438 /* HomepageView.swift */,
-				3198F9F02BD21E7900FD8438 /* ActivityView.swift */,
-				3198F9F22BD21E8400FD8438 /* ChallengeView.swift */,
-				3198F9F42BD21E8F00FD8438 /* ProfileView.swift */,
-				3198F9F62BD21E9700FD8438 /* RunView.swift */,
-				3198F9F82BD21EA000FD8438 /* WalkView.swift */,
-				3198F9FA2BD21EAA00FD8438 /* CycleView.swift */,
-				3198F9FC2BD21EB300FD8438 /* WorkoutView.swift */,
-				3198F9FE2BD21EBC00FD8438 /* SettingView.swift */,
-				3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */,
-				3198FA022BD21ECE00FD8438 /* NotificationView.swift */,
+				C341175D2BDFC05D008BE2A4 /* Login */,
+				C34117612BDFC134008BE2A4 /* User */,
+				C34117602BDFC116008BE2A4 /* MainFeature */,
+				C341175E2BDFC079008BE2A4 /* ActivityType */,
+				C341175F2BDFC0BB008BE2A4 /* Setting */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +129,7 @@
 		3198F9DA2BD21C1600FD8438 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C30CF7C42BDA7015008D8AC5 /* Activity.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,6 +139,7 @@
 			children = (
 				3198F9CB2BD21B8500FD8438 /* FitHubApp.swift */,
 				3198F9DD2BD21D1600FD8438 /* GoogleService-Info.plist */,
+				C30CF7C82BDAB0DA008D8AC5 /* LocationManager.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -150,6 +149,56 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C341175D2BDFC05D008BE2A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9E82BD21DFD00FD8438 /* MainPageView.swift */,
+				3198F9EA2BD21E0F00FD8438 /* SignInView.swift */,
+				3198F9EC2BD21E3400FD8438 /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C341175E2BDFC079008BE2A4 /* ActivityType */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9F62BD21E9700FD8438 /* RunView.swift */,
+				3198F9FA2BD21EAA00FD8438 /* CycleView.swift */,
+				3198F9F82BD21EA000FD8438 /* WalkView.swift */,
+				3198F9FC2BD21EB300FD8438 /* WorkoutView.swift */,
+			);
+			path = ActivityType;
+			sourceTree = "<group>";
+		};
+		C341175F2BDFC0BB008BE2A4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3198F9FE2BD21EBC00FD8438 /* SettingView.swift */,
+				3198FA002BD21EC600FD8438 /* AccountPreferenceView.swift */,
+				3198FA022BD21ECE00FD8438 /* NotificationView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C34117602BDFC116008BE2A4 /* MainFeature */ = {
+			isa = PBXGroup;
+			children = (
+				C30CF7C02BDA6411008D8AC5 /* MapView.swift */,
+				3198F9F22BD21E8400FD8438 /* ChallengeView.swift */,
+				3198F9F02BD21E7900FD8438 /* ActivityView.swift */,
+			);
+			path = MainFeature;
+			sourceTree = "<group>";
+		};
+		C34117612BDFC134008BE2A4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C30CF7C22BDA6478008D8AC5 /* HistoryView.swift */,
+				3198F9F42BD21E8F00FD8438 /* ProfileView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,12 +288,15 @@
 				3198F9FD2BD21EB300FD8438 /* WorkoutView.swift in Sources */,
 				3198F9FF2BD21EBC00FD8438 /* SettingView.swift in Sources */,
 				3198F9F52BD21E8F00FD8438 /* ProfileView.swift in Sources */,
-				3198F9CE2BD21B8500FD8438 /* ContentView.swift in Sources */,
+				C30CF7C32BDA6478008D8AC5 /* HistoryView.swift in Sources */,
+				C30CF7C52BDA7015008D8AC5 /* Activity.swift in Sources */,
 				3198F9ED2BD21E3400FD8438 /* SignUpView.swift in Sources */,
 				3198F9CC2BD21B8500FD8438 /* FitHubApp.swift in Sources */,
+				C30CF7C92BDAB0DA008D8AC5 /* LocationManager.swift in Sources */,
 				3198F9F32BD21E8400FD8438 /* ChallengeView.swift in Sources */,
 				3198F9F72BD21E9700FD8438 /* RunView.swift in Sources */,
 				3198F9F12BD21E7900FD8438 /* ActivityView.swift in Sources */,
+				C30CF7C12BDA6411008D8AC5 /* MapView.swift in Sources */,
 				3198F9FB2BD21EAA00FD8438 /* CycleView.swift in Sources */,
 				3198F9EB2BD21E0F00FD8438 /* SignInView.swift in Sources */,
 				3198F9E92BD21DFD00FD8438 /* MainPageView.swift in Sources */,

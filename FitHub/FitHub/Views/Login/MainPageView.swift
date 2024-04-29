@@ -20,10 +20,9 @@ struct MainPageView: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)  // Hides the default back button
     }
 }
-
-
 
 struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
